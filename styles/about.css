@@ -1,0 +1,218 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.header-info {
+    margin-top: 1rem;
+}
+
+.header-info img {
+    border-radius: 6px;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    box-shadow: rgba(255, 68, 0, 0.993) 0 3px 4px,rgba(7, 7, 7, 0.616) 0 7px 10px -1px,#464545 0 -3px 0 inset;
+}
+
+.main-container ul {
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 2.2rem;
+}
+
+.key-info {
+    display: flex;
+    text-transform: uppercase;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    gap: 10px;
+}
+
+.main-icons {
+    vertical-align: top;
+}
+
+.decoration {
+    font-size: 0.35rem;
+}
+
+.decoration-main {
+    font-size: 1.3rem;
+    vertical-align: top;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    min-width: 720px;
+    gap: 0.5rem;
+}
+
+section li {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+    position: relative;
+}
+
+aside {
+    min-width: 22%
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 22%;
+    flex: 1 1 1;
+    width: 100%;
+}
+
+aside > ul > li {
+    width: 100%;
+}
+
+.progress-bar-container {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: -10px auto 0 auto;
+}
+
+.progress {
+    height: 0.8rem;
+    background-color: orangered;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    min-width: 76%;
+}
+
+article h4, article h5, article p {
+    margin-right: 1rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+aside h4 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+aside p {
+    text-align: center;
+    margin-top: 0;;
+}
+
+article p {
+    margin-top: 0.5rem;
+    margin-left: 1.6rem;
+}
+
+.dates {
+    color: darkgray;
+    margin-top: 0;
+}
+
+h5 {
+    margin-left: 1.6rem;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-left: 1.7rem;
+    margin-right: 0.5rem;
+    border-top: 1px solid lightgray;
+}
+
+#side-drawer-id:target + .header-info {
+    margin-top: 10rem;
+}
+
+@media (max-width: 750px) {
+
+    section {
+        flex-direction: column;
+        min-width: 320px;
+        /* width: 90vw; */
+    }
+
+    article {
+        order: 0;
+    }
+
+    .main-container {
+        width: 90vw;
+    }
+
+    aside {
+        order: 1;
+    }
+
+    aside > ul {
+        gap: 10px;
+    }
+
+    aside > ul > li {
+        margin: 0;
+    }
+}
+
+@media (min-width: 550px) {
+
+    .side-drawer {
+        display: none;
+        height: 0;
+    }
+    .header-info {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 522px) {
+
+    .key-info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 432px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}

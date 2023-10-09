@@ -1,0 +1,138 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.top-section > ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.top-section li {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    width: 50%;
+    min-height: 350px;
+    min-width: 260px;
+    position: relative;
+}
+
+.top-section > ul > li > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgb(34, 34, 34);
+}
+
+.img-glow {
+    box-shadow: rgba(255, 68, 0, 0.993) 0 3px 4px,rgba(7, 7, 7, 0.616) 0 7px 10px -1px,#464545 0 -3px 0 inset;
+}
+
+.language-icons {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    color: orangered;
+    text-shadow: 1px 1px 1px black;
+}
+
+.html-css {
+    font-size: 50px;
+}
+
+.js {
+    font-size: 40px;
+}
+
+.python {
+    font-size: 60px;
+}
+
+.about-me-card > h2, .keywords, .description {
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+h3 {
+    margin: 40px 0px 10px 0px;
+    font-size: 1.5rem;
+    color: #222222;
+}
+
+.bottom-section > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    gap: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.bottom-section li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 280px;
+}
+
+section li {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}
+
+.bottom-section img {
+    height: 60%;
+    object-fit: cover;
+}
+
+.bottom-section p {
+    text-align: center;
+    text-transform: lowercase;
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    color: rgb(70,70,70);
+}
+
+@media (max-width: 850px) {
+    .main-container {
+        max-width: 85%
+    }
+
+    .bottom-section ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-container {
+        max-width: 90%
+    }
+
+    .bottom-section ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-container {
+        max-width: 95%
+    }
+
+    .bottom-section ul {
+        grid-template-columns: 1fr;
+    }
+}
