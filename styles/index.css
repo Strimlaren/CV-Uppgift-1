@@ -70,6 +70,9 @@ h3 {
     color: #222222;
 }
 
+.top-section p {
+    font-size: 0.85rem;
+}
 .bottom-section > ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -102,7 +105,7 @@ section li {
     text-align: center;
     text-transform: lowercase;
     margin-bottom: 50px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 8px;
     color: rgb(70,70,70);
 }
