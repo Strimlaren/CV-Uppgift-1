@@ -10,12 +10,15 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   margin: 0 auto;
   background-color: rgb(219, 219, 219);
 }
@@ -27,7 +30,7 @@ main {
 .header-wrapper {
   display: flex;
   min-width: 70vw;
-  margin-left: 13vw;
+  margin-left: 14.5vw;
   margin-right: 13vw;
   justify-content: space-between;
   align-items: center;
