@@ -326,6 +326,10 @@ footer ul>li:hover {
   float: right;
 }
 
+.modal-link {
+  color: orangered;
+}
+
 .modal-open {
   font-size: 1.5rem;;
   position: absolute;
