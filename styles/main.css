@@ -311,14 +311,11 @@ footer ul>li:hover {
   width: 100%;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
-  outline: 2px double orangered;
+  outline: 2px solid orangered;
   transition: all .3s;
 }
 
 .modal-img:hover {
-  width: 100%;
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 7px;
   outline: 5px double orangered;
 }
 
@@ -334,7 +331,7 @@ footer ul>li:hover {
 }
 
 .modal-open {
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
   position: absolute;
   right: 0px;
   top: -10px;
