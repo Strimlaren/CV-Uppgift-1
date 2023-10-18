@@ -185,6 +185,7 @@ hr {
 
     aside {
         order: 1;
+        
     }
 
     aside > ul {
@@ -193,6 +194,7 @@ hr {
 
     aside > ul > li {
         margin: 0;
+        
     }
 }
 
