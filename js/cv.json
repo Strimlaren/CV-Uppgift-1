@@ -1,0 +1,99 @@
+{
+  "profile": "Mycket versatil person med erfarenhet av olika brancher och roller, från vilka jag dragit stora lärdomar av olika slag. Kan både arbeta självständigt och i lag, axla ansvar och stå till andras förfogande, vad som än krävs för bästa resultat. Desciplinerad, självsäker, balanserat med en god portion ödmjukhet, står på mig och säger alltid sanningen. Problemlösning är kanske min främsta passion.",
+  "work_experience": [
+    {
+      "title": "Fondförvaltare",
+      "company": "Efexia Asset Management Ltd.",
+      "time": "Augusti 2020 - Nuvarande",
+      "description": "Då det lilla företaget är ungt har jag fått axla väldigt många ansvarsområden. Webbansvarig (WIX.com, HTML), excelsammanställningar till beslutsunderlag och annan statistikföring, daglig marknadsanalys, valuta- och aktiehandel, programmering av olika slag, däribland applikationsutveckling och algoritmutveckling i MQL5 (C-baserat MetaTrader 5 språk) för interna behov men också vidareförsäljning, applikationsutvekling av olika interna verktyg i Python."
+    },
+    {
+      "title": "Montör",
+      "company": "Alfa Laval AB",
+      "time": "Februari 2017 - Juli 2020",
+      "description": "Två längre vikariat på Alfa Laval Lund under den här perioden. Den första direkt anställd av Alfa Laval med början februari 2017 och 18 månader framåt, den andra med början januari 2020 och 8 månader framåt via Manpower, båda gångerna på samma avdelning. Mina kunskaper jämställs med de hos en tillsvidareanställd. Arbetsuppgifter består bl.a. av truckkörning, metall- och gummimontering, avsyning, datorrapportering och förbättringsarbeten. Under delar av denna perioden jobbar jag samtidigt hemifrån på Stebello."
+    },
+    {
+      "title": "Webbansvarig",
+      "company": "Stebello Asset Management AB",
+      "time": "Maj 2016 - December 2019",
+      "description": "Jobbade hemifrån med stor flexibilitet och frihet att planera arbetet själv. Då jag hade goda kunskaper inom HTML och CSS sedan tidigare, omfattande datorvana och en rad egna mindre projekt bakom ryggen (men inte tillräckligt avancerad kunskap för behovet), valde jag att jobba i Joomla CMS. Även om mycket i Joomla är färdigt att använda krävs ändå god övergripande förståelse för systemet och hur allt fungerar ihop. HTML och CSS andvändes som extra lim i fogarna. Jag fick även hoppa in med excelsammanställningar och statistikföring samt förberedande analyser inom valutahandel. Flexibiliteten här gjorde att jag kunde kombinera två jobb."
+    },
+    {
+      "title": "Montör",
+      "company": "Alfa Laval AB",
+      "time": "Oktober 2010 - December 2015",
+      "description": "Flera långa (12 + 8 + 8 månader) visstids- och vikarieanställningar på OMCP-3. Arbetsuppgifter bestod av samma som under de blivande anställningarna på avdelningen. Här visade jag att jag var pålitlig, snabblärd, entusiastisk, lättsam och godhjärtad, vilket ledde till många återkomster. Emellanåt kombinerade jag med att jobba extra som Tennistränare."
+    },
+    {
+      "title": "Tennisinstruktör",
+      "company": "Allmänna Tennisklubben Lund",
+      "time": "December 2009 - November 2013",
+      "description": "Här jobbade jag som huvudtränare med alla åldrar mellan 6-60+. Gick en kortare tränarutbildning för att bredda min kompetens för att kunna jobba med äldre elever. Planering och implementering av lektionsupplägg både kortsiktigt och terminsbaserat, individualisering av övningar och pedagogik, kommunikation med målsmän samt eget spel med elever ingick i arbetsbeskrivningen. Här fick jag tidigt igenom förstahandserfarenhet förståelse och respekt för mina överordnade samt för deras ansvar och begränsningar. Visade gott omdöme, förmåga att inkludera och engagera, och var väldigt omtyckt av nästan alla mina elever."
+    },
+    {
+      "title": "Vaktmästare",
+      "company": "Lunds Kommuns Fastigheter AB",
+      "time": "January 2009 - Augusti 2009",
+      "description": "Här hade jag ett kortare vikariat under vintermånaderna, och sedan ett sommarvikariat. Jag fick arbeta helt ensam och ansvara för ett större bostadsområde där bland annat gräs- och häcktrimning, sophantering, postutdelning, in- och utvändiga reparationer av alla möjliga slag ingick i arbetsuppgifterna. Ensamarbete passar mig perfekt då jag har ett säreget behov av organisering och systematisering, här fick jag första gången erfara att jag klarade av detta även i arbetsmiljö under eget ansvar."
+    }
+  ],
+  "education": [
+    {
+      "title": "Fullstack JavaScript",
+      "school": "Chas Academy",
+      "time": "September 2023 - Pågående",
+      "description": "Studerar för närvarande på Yrkeshögskola för att bredda mina kunskaper inom programmering och ha möjlighet att byta yrkesroll."
+    },
+    {
+      "title": "Högskoleekonom",
+      "school": "Blekinge Tekniska Högskola",
+      "time": "Augusti 2012 - Juni 2013",
+      "description": "Högskoleekonom på distans, 3 år. Gick färdigt första året med goda betyg men igen, privata förhållanden hindrade mig. Hjälpte mig att få jobb i finanssektorn."
+    },
+    {
+      "title": "Civ.Ingenjör Datateknik",
+      "school": "Lunds Tekniska Högskola",
+      "time": "Maj 2005 - Maj 2008",
+      "description": "Ej fullföljd utbildning. Gick färdigt Matematikkurserna, programmeringskurserna (Java) och Fysik. Privata omständigheter stod till svars för en icke fullföljd utbildning."
+    },
+    {
+      "title": "Teknikprogrammet",
+      "school": "Polhemskolan Lund",
+      "time": "Augusti 2002 - Juni 2005",
+      "description": "Höga betyg i Svenska/Engelska/Matte. Har Programmering A+B, Kemi A, Fysik A+B."
+    }    
+  ],
+  "skills_progress": {
+    "ledarskap": 30,
+    "kreativitet": 100,
+    "kommunikation": 70,
+    "kritiskt tänkande": 90,
+    "social kompetens": 50,
+    "samarbetsförmåga": 80,
+    "problemlösning": 100,
+    "analytiskt tänkande": 85,
+    "planering": 30    
+  },
+  "programming_progress": {
+    "html": 70,
+    "css": 50,
+    "javascript": 35,
+    "python": 65,
+    "mql5": 60
+  },
+  "languages_progress": {
+    "svenska": 100,
+    "engelska": 100,
+    "kroatiska": 100
+  },
+  "hobbies": [
+    "skönlitteratur",
+    "facklitteratur",
+    "gaming",
+    "programmering",
+    "gymmet",
+    "serier",
+    "tennis"
+  ]
+}

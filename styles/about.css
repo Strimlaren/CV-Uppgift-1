@@ -95,6 +95,10 @@ aside > ul > li {
     width: 100%;
 }
 
+.extra-padding {
+    padding-bottom: 10px;
+}
+
 .progress-bar-container {
     width: 90%;
     border: 1px solid black;
