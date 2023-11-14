@@ -40,16 +40,10 @@
   ],
   "education": [
     {
-      "title": "Teknikprogrammet",
-      "school": "Polhemskolan Lund",
-      "time": "Augusti 2002 - Juni 2005",
-      "description": "Höga betyg i Svenska/Engelska/Matte. Har Programmering A+B, Kemi A, Fysik A+B."
-    },
-    {
-      "title": "Civ.Ingenjör Datateknik",
-      "school": "Lunds Tekniska Högskola",
-      "time": "Maj 2005 - Maj 2008",
-      "description": "Ej fullföljd utbildning. Gick färdigt Matematikkurserna, programmeringskurserna (Java) och Fysik. Privata omständigheter stod till svars för en icke fullföljd utbildning."
+      "title": "Fullstack JavaScript",
+      "school": "Chas Academy",
+      "time": "September 2023 - Pågående",
+      "description": "Studerar för närvarande på Yrkeshögskola för att bredda mina kunskaper inom programmering och ha möjlighet att byta yrkesroll."
     },
     {
       "title": "Högskoleekonom",
@@ -58,30 +52,37 @@
       "description": "Högskoleekonom på distans, 3 år. Gick färdigt första året med goda betyg men igen, privata förhållanden hindrade mig. Hjälpte mig att få jobb i finanssektorn."
     },
     {
-      "title": "Fullstack JavaScript",
-      "school": "Chas Academy",
-      "time": "September 2023 - Pågående",
-      "description": "Studerar för närvarande på Yrkeshögskola för att bredda mina kunskaper inom programmering och ha möjlighet att byta yrkesroll."
-    }
+      "title": "Civ.Ingenjör Datateknik",
+      "school": "Lunds Tekniska Högskola",
+      "time": "Maj 2005 - Maj 2008",
+      "description": "Ej fullföljd utbildning. Gick färdigt Matematikkurserna, programmeringskurserna (Java) och Fysik. Privata omständigheter stod till svars för en icke fullföljd utbildning."
+    },
+    {
+      "title": "Teknikprogrammet",
+      "school": "Polhemskolan Lund",
+      "time": "Augusti 2002 - Juni 2005",
+      "description": "Höga betyg i Svenska/Engelska/Matte. Har Programmering A+B, Kemi A, Fysik A+B."
+    }    
   ],
-  "skills-progress": {
-    "planering": 30,
-    "analytiskt tänkande": 85,
-    "problemlösning": 100,
-    "samarbetsförmåga": 80,
-    "social kompetens": 50,
-    "kritiskt tänkande": 90,
-    "kommunikation": 70,
+  "skills_progress": {
+    "ledarskap": 30,
     "kreativitet": 100,
-    "ledarskap": 30
+    "kommunikation": 70,
+    "kritiskt tänkande": 90,
+    "social kompetens": 50,
+    "samarbetsförmåga": 80,
+    "problemlösning": 100,
+    "analytiskt tänkande": 85,
+    "planering": 30    
   },
-  "programming-progress": {
-    "python": 65,
-    "javascript": 20,
+  "programming_progress": {
+    "html": 70,
     "css": 50,
-    "html": 60
+    "javascript": 35,
+    "python": 65,
+    "mql5": 60
   },
-  "languages-progress": {
+  "languages_progress": {
     "svenska": 100,
     "engelska": 100,
     "kroatiska": 100
