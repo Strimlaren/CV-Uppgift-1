@@ -2,9 +2,10 @@
 Contains my CV / Portfolio site which is also auto deployed to Netlify (link at bottom).
 
 ## Changelog for CV site since uppgift 1:
-- CV Is now loaded from a JSON file.
-- Code Jam Rock-Paper-Scissors game added and available for play directly from projects-page, also on published site.
-- Contact me page extended with contact form modal. Self-made vanilla-JS char counter can be found here.
+- CV Is now loaded from a JSON file
+- Code Jam Rock-Paper-Scissors game added and available for play directly from projects-page, also on published site
+- Contact me page extended with contact form modal. Self-made vanilla-JS char counter can be found here
+- Added external (heavily modified) JS code for animating progress bars on about.html
 - Added readme.md. 
 
 ## Requirements:
@@ -12,14 +13,14 @@ Contains my CV / Portfolio site which is also auto deployed to Netlify (link at 
 - [x] CV, workplaces and education infos must be in a separate JSON file  
 - [x] JSON file should be loaded and generate your CV  
 - [x] You page should contain at least one self-made interactive vanilla JS-element  
-- [ ] Integrate an external vanilla JS script to the site  
-- [ ] Add comments to mark what JS code is self-made / external. Provide link  
+- [x] Integrate an external vanilla JS script to the site  
+- [x] Add comments to mark what JS code is self-made / external. Provide link  
 - [x] Add a portfolio page that shows all your projects  
 - [x] Publish a Code Jam project to Github and include it to portfolio page
 
 ## Technical requirements:
 - [ ] Validated with 0 errors at [W3 Validator](https://validator.w3.org/Links)  
-- [ ] No errors in console  
+- [x] No errors in console  
 - [ ] SEO optimization
   - [x] Semantic HTML-tags
   - [ ] Meta-tags
