@@ -186,6 +186,11 @@ footer ul>li:hover {
   font-style: normal;
 }
 
+.white,
+.white:hover {
+  background-color: whitesmoke;
+}
+
 .keywords {
   color: orangered;
   margin-left: 4px;

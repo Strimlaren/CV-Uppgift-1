@@ -95,6 +95,7 @@
           <label for="email">Email: </label>
           <input type="text" id="email" name="email" type="email" required maxlength="30"> <span id="email-counter">30</span>/30
         </form>
+        <a href="#card-one" class="button1 white">Let's get in touch</a>
       </div>
     </div>
     <iframe
@@ -274,6 +275,31 @@
       </ul>
     </footer>
   </main>
+  <!-- MODAL -->
+
+  <div id="card-one" class="modal">
+    <div class="modal-content card-one-modal">
+      <!-- <h4 class="whitesmoke modal-title">let's get in touch<span class="orangered">.</span></h4> -->
+      
+      <form class="form-div" id="form" action="mailto:mirza.mesinovic@chasacademy.se" method="POST" enctype="text/plain">
+       <label for="fname">Name<span class="orangered"> *</span> </label><label for="lname">Surname </label>
+       <input type="text" id="fname" name="name" required><input type="text" id="lname" name="surname">
+       <label for="email" class="span2">Email<span class="orangered"> *</span></label>
+       <input type="email" id="email" name="email" class="span2" required>
+       <label for="message" class="span2">Message<span class="orangered"> * </span><span id="chars-left"></span>/<span id="max-chars"></span></label>
+       <textarea id="message" name="message" class="span2 message" maxlength="100" required></textarea>
+       <input type="submit"  value="Send" class="span2">
+      </form>
+
+      <!-- <a href="https://github.com/Strimlaren/gow-helper" target="_blank"><img src="images/gowhelper.avif"
+          class="modal-img" alt="image of gems of war helper app"></a> -->
+      <!-- <div class="modal-footer">
+        Made with <span class="orangered">Python</span>, by Mirza
+      </div> -->
+      <a href="#" class="modal-close">&times;</a>
+    </div>
+  </div>
+
   <script src="js/contact.js"></script>
 </body>
 
