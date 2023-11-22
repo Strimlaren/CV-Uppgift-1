@@ -1,12 +1,15 @@
 async function getCV() {
+  // Asynchronously load in the json data
   const cv_data = await fetch("js/cv.json");
-
+  // If response from fetch request returns ok, run the rest
   if (cv_data.ok) {
+    // Asynchronously convert response to JSON format
     const data = await cv_data.json();
-  
+    // A for loop for each section of the CV. Will iterate depending on amount of items inside each object. Will dynamically create the content and insert to hard-coded HTML wrappers depending on how many items there are in the JSON. If the amount of items changes in the JSON in the future, function should correctly extend the webpage with this new content with no need for changing any HTML.
     // General Skills
     const skills_progress = document.getElementById("skills-progress");
     for (const item in data.skills_progress) {
+      // Creating one element at a time and giving it classes, and content from the JSON. For readability, appends last
       const p_tag = document.createElement("p");
       p_tag.textContent = capitalize(item);
 
@@ -24,9 +27,7 @@ async function getCV() {
     }
 
     // Programming skills
-    const programming_progress = document.getElementById(
-      "programming-progress"
-    );
+    const programming_progress = document.getElementById("programming-progress");
     for (const item in data.programming_progress) {
       const p_tag = document.createElement("p");
       p_tag.textContent = item.toUpperCase();
@@ -92,7 +93,7 @@ async function getCV() {
       work_experiences.appendChild(h5_tag);
       work_experiences.appendChild(dates_p_tag);
       work_experiences.appendChild(description_p);
-      // I dont want an <hr> after last item
+      // I dont want a <hr> after last item
       if (iteration_number != data.work_experience.length - 1)
         work_experiences.appendChild(hr_item);
       iteration_number++;
@@ -121,7 +122,7 @@ async function getCV() {
 
 getCV();
 
-// Ta en sträng och gör om så att alla ords första bokstäver blir stora
+// Take a string and return it with first char of every word capitalized
 function capitalize(string) {
   const words = string.split(" ");
 
