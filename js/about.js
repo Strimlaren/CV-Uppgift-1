@@ -3,8 +3,7 @@ async function getCV() {
 
   if (cv_data.ok) {
     const data = await cv_data.json();
-    console.log(data);
-
+  
     // General Skills
     const skills_progress = document.getElementById("skills-progress");
     for (const item in data.skills_progress) {

@@ -85,6 +85,10 @@ input {
   display: inline;
 }
 
+iframe {
+  margin-top: 1rem;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 750px) {
