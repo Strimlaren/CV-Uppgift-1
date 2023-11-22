@@ -14,8 +14,8 @@ function update_message_counter() {
   // Calculate how many more chars user is allowed to type
   const chars = Number(max_chars.textContent) - (message_input.value).length;
   chars_left.textContent = chars;
-  // Visual queue the user with css when less than 10% of max allowed chars remaining
-  if (chars < Number(max_chars.textContent) / 10) {
+  // Visually queue the user with css when less than 10% of max allowed chars remaining
+  if (chars <= Number(max_chars.textContent) / 10) {
     chars_left.classList.add("warning");
     message_input.classList.add("warning-input");
   } else {
