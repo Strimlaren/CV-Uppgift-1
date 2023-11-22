@@ -18,8 +18,7 @@ async function getCV() {
 
       const progress_div = document.createElement("div");
       progress_div.classList.add("progress");
-      progress_div.style.width = `${data.skills_progress[item]}%`;
-      progress_div.textContent = `${data.skills_progress[item]}%`;
+      progress_div.classList.add(`${data.skills_progress[item]}`); // DO I NEED THIS ???
 
       container_div.appendChild(progress_div);
       skills_progress.appendChild(p_tag);
@@ -37,8 +36,7 @@ async function getCV() {
 
       const progress_div = document.createElement("div");
       progress_div.classList.add("progress");
-      progress_div.style.width = `${data.programming_progress[item]}%`;
-      progress_div.textContent = `${data.programming_progress[item]}%`;
+      progress_div.classList.add(`${data.programming_progress[item]}`);
 
       container_div.appendChild(progress_div);
       programming_progress.appendChild(p_tag);
@@ -56,8 +54,7 @@ async function getCV() {
 
       const progress_div = document.createElement("div");
       progress_div.classList.add("progress");
-      progress_div.style.width = `${data.languages_progress[item]}%`;
-      progress_div.textContent = `${data.languages_progress[item]}%`;
+      progress_div.classList.add(`${data.languages_progress[item]}`);
 
       container_div.appendChild(progress_div);
       languages_progress.appendChild(p_tag);
@@ -118,6 +115,7 @@ async function getCV() {
       education.appendChild(description_p);
     }
   }
+  change_progress();
 }
 
 getCV();
@@ -130,4 +128,23 @@ function capitalize(string) {
     words[i] = words[i][0].toUpperCase() + words[i].substr(1);
   }
   return words.join(" ");
+}
+// AUTHOR: EXTERNAL
+// LINK: https://codepen.io/theprogrammingexpert/pen/jOqGBLL
+function change_progress() {
+
+  const progress_bars = document.querySelectorAll(".progress");
+
+  progress_bars.forEach(function (bar) {
+    const hundredth = Number(bar.classList[1]) / 100;
+
+    for (let i = 1; i < 101; i++) {
+      setTimeout(() => change_progress(hundredth * i, bar), 40 * i);
+    }
+
+    const change_progress = (progress, my_bar) => {
+      my_bar.style.width = `${progress}%`;
+      my_bar.textContent = `${Math.round(progress)}%`;
+    }
+  })
 }

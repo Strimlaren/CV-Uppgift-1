@@ -112,6 +112,8 @@ aside > ul > li {
     font-size: 0.7rem;
     text-align: center;
     color: white;
+    width: 0;
+    transition: width 0.4s ease;
 }
 
 article {
@@ -225,4 +227,19 @@ hr {
     h1 {
         font-size: 1.5rem;
     }
+}
+
+/* PART OF EXTERNAL CODE */
+
+#line-container {
+    width: 300px;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.progress-text {
+  font-size: 1.25em;
+  color: black;
+  margin-bottom: 1em;
+  font-weight: 600;
 }
