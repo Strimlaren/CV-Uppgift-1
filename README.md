@@ -20,8 +20,9 @@ Contains my CV / Portfolio site which is also auto deployed to Netlify (link at 
 
 ## Technical requirements:
 - [x] Validated with 0 errors at [W3 Validator](https://validator.w3.org/Links)
-      NOTE: W3 Validator is complaining about duplicate classes which belong to an SVG which cannot be undone.
-      NOTE 2: Also, it is complaining about the width property i changed to 100% on the google maps iframe. This is intended.
+      NOTE: W3 Validator is complaining about duplicate classes which belong to an SVG which cannot be undone
+      NOTE 2: Also, it is complaining about the width property i changed to 100% on the google maps iframe. This is intended
+      NOTE 3: Additionally, it says a section lacks headlines. The headline pertaining this section lies just outside of it, for design purposes
 - [x] No errors in console  
 - [ ] SEO optimization
   - [x] Semantic HTML-tags
