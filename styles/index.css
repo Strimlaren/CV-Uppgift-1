@@ -89,7 +89,7 @@ h3 {
     display: flex;
     flex-direction: column;
     position: relative;
-    min-height: 280px;
+    max-height: 310px;
 }
 
 section li {
