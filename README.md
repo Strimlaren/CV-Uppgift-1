@@ -2,7 +2,7 @@
 Contains my CV / Portfolio site which is also auto deployed to Netlify (link at bottom).
 
 ## Changelog for CV site since uppgift 1:
-- CV Is now loaded from a JSON file
+- CV is now loaded from a JSON file
 - Code Jam Rock-Paper-Scissors game added and available for play directly from projects-page, also on published site
 - Contact me page extended with contact form modal. Self-made vanilla-JS char counter can be found here
 - Added external (heavily modified) JS code for animating progress bars on about.html
@@ -19,7 +19,9 @@ Contains my CV / Portfolio site which is also auto deployed to Netlify (link at 
 - [x] Publish a Code Jam project to Github and include it to portfolio page
 
 ## Technical requirements:
-- [ ] Validated with 0 errors at [W3 Validator](https://validator.w3.org/Links)  
+- [x] Validated with 0 errors at [W3 Validator](https://validator.w3.org/Links)
+      NOTE: W3 Validator is complaining about duplicate classes which belong to an SVG which cannot be undone.
+      NOTE 2: Also, it is complaining about the width property i changed to 100% on the google maps iframe. This is intended.
 - [x] No errors in console  
 - [ ] SEO optimization
   - [x] Semantic HTML-tags
