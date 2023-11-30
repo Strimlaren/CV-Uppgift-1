@@ -24,9 +24,9 @@ Contains my CV / Portfolio site which is also auto deployed to Netlify (link at 
       NOTE 2: Also, it is complaining about the width property i changed to 100% on the google maps iframe. This is intended
       NOTE 3: Additionally, it says a section lacks headlines. The headline pertaining this section lies just outside of it, for design purposes
 - [x] No errors in console  
-- [ ] SEO optimization
+- [x] SEO optimization
   - [x] Semantic HTML-tags
-  - [ ] Meta-tags
+  - [x] Meta-tags
   - [x] Optimized images
 - [x] Add a readme.md in the repo root  
 - [x] Link to (public) repo, containing all the code and readme.md
