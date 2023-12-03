@@ -351,6 +351,12 @@ footer ul>li:hover {
   font-size: 2em;
 }
 
+h6 {
+  font-size: 0;
+  color: transparent;
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 870px) {
