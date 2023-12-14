@@ -226,6 +226,10 @@ footer ul>li:hover {
   color: orangered;
 }
 
+.chas-logo {
+  width: 33px;
+}
+
 .mobile-menu-button {
   display: none;
   font-size: 2rem !important;
